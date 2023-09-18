@@ -1,5 +1,7 @@
 import React from 'react';
-import silalblack from './silalblack.png'
+import silalgreen from '../1_SILAL_ASSETS/silalgreen.png';
+import '../1_SILAL_ASSETS/Silal.css';
+
 const Home = () => { 
 
     return (
@@ -7,11 +9,11 @@ const Home = () => {
             <div className="main">
                 <div className="form-items">
                     <div style={{justifyContent: 'center', alignItems: 'center'}}>
-                        <img id='head' style={{width: '150px'}} src={silalblack} alt="Nissan Laptop Cover"/>
+                        <img id='head' style={{width: '150px'}} src={silalgreen} alt="Nissan Laptop Cover"/>
                     </div>
                     
-                    <h1 style={{fontWeight:'1000', fontSize: '60px', marginTop: '5px'}}>WELCOME</h1>
-                    <h4> To The Silal RSVP Application </h4>
+                    <h1 style={{fontWeight:'1000', fontSize: '60px', marginTop: '5px', color: '#00443F'}}>WELCOME</h1>
+                    <h4 style={{color: '#00443F'}}> To The Silal RSVP Application </h4>
                 </div>
             </div>
         </>

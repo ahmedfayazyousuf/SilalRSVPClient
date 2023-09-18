@@ -1,7 +1,7 @@
 import React from 'react'; 
 import 'bootstrap/dist/css/bootstrap.css';
 import { NavLink } from "react-router-dom";
-import thhlogoo from "./silalwhite.png";
+import silalwhite from '../1_SILAL_ASSETS/silalwhite.png';
 
 const Navbar = () => {
     const RenderMenu = () => {
@@ -38,9 +38,9 @@ const Navbar = () => {
             )
     }
     return (
-    <nav id='navigator' className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: 'black'}}>   
+    <nav id='navigator' className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: '#00443F'}}>   
         <NavLink className="navbar-brand" to="/">
-            <img style={{marginLeft:'15px', width: '47px', height: '45px'}} src={thhlogoo} alt="the hanging house logo"/>
+            <img style={{marginLeft:'15px', width: '47px', height: '45px', marginTop: '5px'}} src={silalwhite} alt="the hanging house logo"/>
         </NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

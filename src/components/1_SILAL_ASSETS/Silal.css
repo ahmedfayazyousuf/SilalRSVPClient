@@ -18,21 +18,11 @@ body, html{
 
 @font-face{
     font-family: myFont;
-    src:url(NissanBrand-Bold.ttf);
+    src:url(Montserrat-Light.ttf);
 }
-h1,h2,h3,h4,h5,h6,a,button,div, tr, td, table, th{
+*{
     font-family: myFont;
 }
-
-@font-face{
-    font-family: myFont2;
-    src:url(NissanBrand-Regular.ttf);
-}
-h4, p, label{
-    font-family: myFont2;
-}
-
-
 .mainn{
     display:flex;
     flex-direction:column;

@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { useState } from "react"
 import axios from "axios";
-import '../Nissan.css';
+
 const Accepted = () => {
     const [user, setUser] = useState([])
 

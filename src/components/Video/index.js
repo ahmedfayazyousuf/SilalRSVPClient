@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import nislogo from './nislogo.png';
+import silalblack from '../1_SILAL_ASSETS/silalgreen.png';
 import mobleft from './mobleft.png';
 import { useParams } from "react-router-dom";
 import video from './video.m4v';
@@ -30,7 +30,7 @@ const Video = () => {
         <>
         <div className="qrscan">
             <div style={{display:"flex", justifyContent:"space-between",width:"100%"}}>
-                <img id='head' style={{ width: '90px', height: '76px', marginLeft: '15px', marginTop: '15px'}} src={nislogo} alt="Nissan Laptop Cover"/>
+                <img id='head' style={{ width: '90px', height: '76px', marginLeft: '15px', marginTop: '15px'}} src={silalblack} alt="Nissan Laptop Cover"/>
                 <img id='head' style={{ width: '155px', height: '76px', marginRight: '15px', marginTop: '15px'}} src={mobleft} alt="Nissan Laptop Cover"/>
             </div>
 
@@ -54,7 +54,7 @@ const Video = () => {
             {/* <div className="main">
                 <div className="form-items">
                     <div style={{justifyContent: 'center', alignItems: 'center'}}>
-                        <img id='head' style={{width: '10%'}} src={nislogo} alt="Nissan Laptop Cover"/>
+                        <img id='head' style={{width: '10%'}} src={silalblack} alt="Nissan Laptop Cover"/>
                     </div>
                     
                     <h1 style={{fontWeight:'1000', fontSize: '60px'}}>Video</h1>
