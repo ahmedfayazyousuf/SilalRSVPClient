@@ -27,10 +27,11 @@ const NoReply = () => {
     function sendAll(){
 
         
-
+        // eslint-disable-next-line 
         user.map((user) => {
             try {
                 var to = user.Email;
+                // eslint-disable-next-line 
                 var message = "reminder";
                 var id = user._id;
                 var name = user.Name
@@ -41,9 +42,11 @@ const NoReply = () => {
                    name
                })
                console.log("sent")
+            //    eslint-disable-next-line 
                return 
            } catch (error) {
                console.log(error);
+            //    eslint-disable-next-line 
                return
            }
         })

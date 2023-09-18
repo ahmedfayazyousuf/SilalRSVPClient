@@ -1,6 +1,5 @@
 import React from 'react';
 import { useEffect } from 'react';
-import axios from 'axios';
 import nislogo from './nislogo.png'
 import { useParams } from "react-router-dom";
 
