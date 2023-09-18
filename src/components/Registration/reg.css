@@ -1,0 +1,101 @@
+html, body{
+    height:100%;
+    overflow-x: hidden;
+}
+body{
+    overflow-y: scroll;
+}
+div{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.mobileview{
+    display:none;
+}
+
+label {
+    justify-self: flex-start;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 90%;
+}
+
+.block{
+    display: flex;
+    justify-content: flex-end;
+
+    margin-bottom: 10px;
+}
+
+
+.buttt {
+background-color: white;
+color: black;
+border: 2px solid black;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.butt:hover {
+background-color: black;
+color: white;
+}
+
+.flex-child{
+    width: 30%;
+    justify-self: center;
+    align-items: center;
+    
+    
+}
+
+.flex-container2{
+    width:"100%";
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+    .flex-container2{
+        flex-direction: column;
+    }
+
+    .flex-container{
+        margin-left: 30px;
+    }
+
+    .flex-child{
+        width: 100%;
+        justify-content: center;
+    }
+
+    p{
+        margin-bottom:10px;
+    }
+    .block{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+    input{
+        justify-self: flex-end;
+    }
+    .confirmobutton{
+        margin-top: 0
+        }
+
+    .hidden{
+        display:none;
+    }
+    .mobileview{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-child{
+        display: none;
+    }
+  }
+    
+
