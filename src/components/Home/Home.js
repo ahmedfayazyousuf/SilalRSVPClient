@@ -12,7 +12,7 @@ const Home = () => {
                         <img id='head' style={{width: '150px'}} src={silalgreen} alt="Nissan Laptop Cover"/>
                     </div>
                     
-                    <h1 style={{fontWeight:'1000', fontSize: '60px', marginTop: '5px', color: '#00443F'}}>WELCOME</h1>
+                    <h1 style={{fontWeight:'1000', fontSize: '60px', marginTop: '5px', color: '#00443F', overflow: 'hidden'}}>WELCOME</h1>
                     <h4 style={{color: '#00443F'}}> To The Silal RSVP Application </h4>
                 </div>
             </div>
