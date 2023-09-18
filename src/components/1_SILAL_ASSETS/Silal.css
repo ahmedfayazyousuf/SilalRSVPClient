@@ -295,6 +295,15 @@ input[type=number] {
     font-size: 60px;
 }
 
+
+.divvery{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    text-align: center;
+    display: hidden;
+}
+
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
@@ -303,6 +312,10 @@ input[type=number] {
     .form-content .form-items {
         width: 10%;
       }
+      .divvery{
+        justify-content: center;
+        align-items: center;
+    }
   }
 
 
@@ -812,6 +825,5 @@ video{
 
     left:0
 }
-
 
 
