@@ -38,37 +38,29 @@ const Accepted = () => {
         <>
             <div className="invitebutton">
                 <div style={{width: '100%'}}>
-                    <h1 className="header">Accepted</h1>
+                    <h1 className="header" style={{color: '#00443F', fontWeight: '900', marginTop: '10px'}}>ACCEPTED</h1>
                 </div>
             </div>
 
-            <div className="mainn" style={{color: 'black'}}>
-                <div className="white" style={{width: '100%'}}>
-                    <div style={{width: '100%', height: '80vh', overflowY: 'scroll'}}>
-                        <table className="table table-hover"  
-                        style={{
-                            color: 'black',
-                            backgroundColor:'white',
-                            opacity: '0.5',
-                        }}>
-                            <thead
-                            style={{
-                                color: '#1D063C',
-                            }}>
+            <div className="mainn">
+                <div className="white" style={{width: '100%', overflow: 'hidden'}}>
+                    <div style={{width: '100%', height: '70vh', overflowY: 'scroll', border: '2px solid #00443F'}}>
+                        <table className="table table-hover" style={{color: '#1D063C', border: '2px solid #00443F'}}>
+                            <thead style={{position: 'sticky', top: '-1px'}}>
                                 <tr>
-                                    <th>User</th>
-                                    <th>Email</th>
-                                    <th>Status</th>
-                                    <th>Attended</th>
+                                    <th style={{color: 'white', backgroundColor: '#00443F'}}>User</th>
+                                    <th style={{color: 'white', backgroundColor: '#00443F'}}>Email</th>
+                                    <th style={{color: 'white', backgroundColor: '#00443F'}}>Status</th>
+                                    <th style={{color: 'white', backgroundColor: '#00443F'}}>Attended</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 {user.map((user,index) => {
-                                    return <tr id={`${index}`} key={user._id}>
-                                    <td style={{}}>{user.Name}</td>
-                                    <td style={{}}>{user.Email}</td>
-                                    <td>{user.Status}</td>
-                                    <td><button className="confirmi" onClick={() => {Confirm(index,user._id)}}>Confirm</button></td>
+                                    return <tr id={`${index}`} key={user._id} style={{justifyContent: 'center', alignSelf: 'center', height: '50px'}}>
+                                    <td style={{width: '25%'}}>{user.Name}</td>
+                                    <td style={{width: '25%'}}>{user.Email}</td>
+                                    <td style={{width: '25%'}}>{user.Status}</td>
+                                    <td style={{width: '25%'}}><button className="confirmi" onClick={() => {Confirm(index,user._id)}}>Confirm</button></td>
                                     </tr> 
                                 })}
                             </tbody>

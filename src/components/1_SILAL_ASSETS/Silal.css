@@ -31,7 +31,6 @@ body, html{
     height:100%;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
     margin-left: 30px;
     
     margin-bottom: 20px;
@@ -47,7 +46,6 @@ body, html{
     /* padding:20px; */
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
 }
 
 .createinvite{
@@ -102,7 +100,6 @@ input.m_title:first-letter {
     display: flex;
     justify-content:center;
     margin: 30px;
-    border-radius: 20px;
 }
 
 
@@ -110,7 +107,6 @@ input.m_title:first-letter {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 20px;
     text-align: center;
     color:black;
 }
@@ -123,7 +119,6 @@ input.m_title:first-letter {
     height:100%;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
     margin-left: 30px;
     
     margin-bottom: 20px;
@@ -139,12 +134,10 @@ input.m_title:first-letter {
     /* padding:20px; */
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
 }
 
 .createinvite{
     background-color: black;
-    border-radius: 30px;
     color:#1D063C;
     font-weight: 500;
     padding-left:30px;
@@ -179,7 +172,6 @@ input.m_title:first-letter {
     height:100%;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
     margin-left: 30px;
     
     margin-bottom: 20px;
@@ -195,12 +187,10 @@ input.m_title:first-letter {
     /* padding:20px; */
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
 }
 
 .createinvite{
     background-color: white;
-    border-radius: 30px;
     color:#1D063C;
     font-weight: 500;
     padding-left:30px;
@@ -224,7 +214,6 @@ input.m_title:first-letter {
     padding-left: 10px;
     padding-right: 10px;
     font-size: small;
-    border-radius: 10px;
 }
   
 
@@ -451,7 +440,6 @@ label{
     height:100%;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
     margin-left: 30px;
     
     margin-bottom: 20px;
@@ -467,12 +455,10 @@ label{
     /* padding:20px; */
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
 }
 
 .createinvite{
     background-color: white;
-    border-radius: 30px;
     color:#1D063C;
     font-weight: 500;
     padding-left:30px;
@@ -496,28 +482,28 @@ label{
     padding-left: 10px;
     padding-right: 10px;
     font-size: small;
-    border-radius: 10px;
 }
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 4px;
+    background-color: white;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 10px;
+    box-shadow: inset 0 0 5px white; 
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: grey; 
-    border-radius: 10px;
+    background: #00443F; 
+    /* border-radius: 5px; */
+    border-color: 1px solid white;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: black}
+    background: white}
 
 
 .main{
@@ -525,7 +511,6 @@ label{
     display: flex;
     justify-content:center;
     margin: 30px;
-    border-radius: 20px;
 }
 
 
@@ -533,7 +518,6 @@ label{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 20px;
     text-align: center;
     color:white;
 }
@@ -543,7 +527,6 @@ label{
     display: flex;
     justify-content:center;
     margin: 30px;
-    border-radius: 20px;
 }
 
 
@@ -551,7 +534,6 @@ label{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-radius: 20px;
     text-align: center;
     color:black;
 }
@@ -749,17 +731,19 @@ input[type=number] {
 }
 
 .confirmi{
-    background-color: black;
+    background-color: #00443F;
     color: white;
-    border: 2px solid black;
+    border: 1px solid  #00443F;
     padding-top: 2px;
     padding-bottom: 2px;
+    
 }
 
 .confirmi:hover{
     background-color: white;
     color: black;
-    border: 2px solid black;
+    font-weight: 900;
+    /* border: 2px solid black; */
 }
 
 .videox{
@@ -788,8 +772,6 @@ input[type=number] {
     width: 854px; */
     height: 70%;
     width: 90%;
-
-   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -827,3 +809,30 @@ video{
 }
 
 
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    font-weight: 900;
+  }
+  
+  tr:nth-child(odd) {
+    color: white;
+    background-color: lightgreen;
+  }
+  
+  /* .UserRow{
+    padding-right: 100px;
+    font-weight: 900;
+    color: white;
+  }
+  
+  .UserRow:nth-child(even) {
+    color: yellow;  
+    background-color: red;
+  } */

@@ -55,9 +55,9 @@ const NoReply = () => {
     
     return(
         <>
-            <div style={{display: 'flex', width:'100%'}}>
-                <div style={{display: 'flex', width:'70%'}}>
-                    <h1 style ={{marginTop: '10px', overflowX: 'hidden'}} className="header">Unanswered</h1>
+            <div className="invitebutton">
+                <div style={{width: '100%'}}>
+                    <h1 className="header" style={{color: '#00443F', fontWeight: '900', marginTop: '10px'}}>INVITATIONS</h1>
                 </div>
 
                 <div style={{display: 'flex', width:'30%', justifyContent: 'flex-end'}}>
