@@ -51,14 +51,9 @@ const Attended = () => {
     
     return(
         <>
-            {/* <div className="invitebutton">
-                <div style={{width: '100%'}}>
-                    <h1 className="header">Attended</h1>
-                </div>
-            </div> */}
 
-            <div style={{display: 'flex', width:'100%'}}>
-            <div style={{width: '100%'}}>
+            <div className="invitebutton">
+                <div style={{width: '100%'}}>
                     <h1 className="header" style={{color: '#00443F', fontWeight: '900', marginTop: '10px'}}>ATTENDED</h1>
                 </div>
 
@@ -67,7 +62,7 @@ const Attended = () => {
                 </div>  
             </div>
 
-            <div className="mainn">
+            <div className="mainn" style={{marginTop: '-15px'}}>
                 <div className="white" style={{width: '100%', overflow: 'hidden'}}>
                     <div style={{width: '100%', height: '70vh', overflowY: 'scroll', border: '2px solid #00443F'}}>
                         <table className="table table-hover" style={{color: '#1D063C', border: '2px solid #00443F'}}>
