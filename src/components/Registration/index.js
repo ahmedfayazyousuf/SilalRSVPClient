@@ -2,8 +2,8 @@ import './reg.css'
 import { useEffect } from "react";
 import React, { useState } from 'react';
 // import {useLocation} from 'react-router-dom'
-import nislap from "./nislap.png";
-import nismob from "./nismob.png";
+import desktopCoverTop from "./desktopCoverTop.jpg";
+import mobileCoverTop from "./mobileCoverTop.jpg";
 import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import axios from 'axios';
@@ -74,7 +74,7 @@ const Registration = () => {
         getData();
 
         if(window.innerWidth <= 600){
-            document.getElementById('head').setAttribute("src",nismob)
+            document.getElementById('head').setAttribute("src",mobileCoverTop)
         }
         // eslint-disable-next-line
     },[])
@@ -143,7 +143,7 @@ const Registration = () => {
         <div style={{justifyContent:"center", alignItems:"center", width:"100%", height:"100%"}}>
         
         <div style={{display: 'flex', width: '100%'}}>
-            <img id='head' style={{height:'100%', marginBottom:"5px"}} src={nislap} alt="Nissan Laptop Cover"/>
+            <img id='head' style={{height:'100%', marginBottom:"5px"}} src={desktopCoverTop} alt="Nissan Laptop Cover"/>
         </div>
 
 
