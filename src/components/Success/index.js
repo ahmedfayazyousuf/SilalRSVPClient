@@ -10,7 +10,7 @@ const Success = () => {
         
         try {
             var status = "Rejected"
-            axios.put("https://nissanrsvp.herokuapp.com/user_update", {
+            axios.put("https://rsvpadminserver.azurewebsites.net/user_update", {
                user_id,
                status
            })

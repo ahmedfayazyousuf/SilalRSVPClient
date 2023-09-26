@@ -10,7 +10,7 @@ const UserPage = () =>{
     async function Accept(){
         try {
             var status = "Accepted"
-            axios.put("https://nissanrsvp.herokuapp.com/user_update", {
+            axios.put("https://rsvpadminserver.azurewebsites.net/user_update", {
                user_id,
                status
            })
@@ -19,7 +19,7 @@ const UserPage = () =>{
        }
 
        try {
-        const res = await fetch(`https://nissanrsvp.herokuapp.com/user_one/${user_id}`, {
+        const res = await fetch(`https://rsvpadminserver.azurewebsites.net/${user_id}`, {
         method: "GET",
         headers: {
             "Content-Type": "application/json"
@@ -45,7 +45,7 @@ const UserPage = () =>{
     function Reject(){
         try {
             var status = "Rejected"
-            axios.put("https://nissanrsvp.herokuapp.com/user_update", {
+            axios.put("https://rsvpadminserver.azurewebsites.net/user_update", {
                user_id,
                status
            })

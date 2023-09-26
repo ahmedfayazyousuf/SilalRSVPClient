@@ -59,7 +59,7 @@ const Attended = () => {
 
                 <div style={{display: 'flex', width:'30%', justifyContent: 'flex-end'}}>
                     <VolunteerActivismOutlinedIcon className="bell" onClick={sendAll}></VolunteerActivismOutlinedIcon>
-                </div>  
+                </div>
             </div>
 
             <div className="mainn" style={{marginTop: '-15px'}}>
