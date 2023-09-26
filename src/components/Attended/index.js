@@ -62,7 +62,7 @@ const Attended = () => {
                 </div>
             </div>
 
-            <div className="mainn" style={{marginTop: '-15px'}}>
+            <div className="mainn" style={{marginTop: '-20px'}}>
                 <div className="white" style={{width: '100%', overflow: 'hidden'}}>
                     <div style={{width: '100%', height: '70vh', overflowY: 'scroll', border: '2px solid #00443F'}}>
                         <table className="table table-hover" style={{color: '#1D063C', border: '2px solid #00443F'}}>

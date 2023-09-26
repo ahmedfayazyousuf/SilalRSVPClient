@@ -704,7 +704,7 @@ input[type=number] {
 
 
 .bell{
-    transform: scale(2.5);
+    transform: scale(2.0);
     margin-bottom: 30px;
     margin-right: 40px;
     margin-top: 20px;
