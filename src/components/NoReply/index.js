@@ -25,8 +25,6 @@ const NoReply = () => {
     },[])
 
     function sendAll(){
-
-        
         // eslint-disable-next-line 
         user.map((user) => {
             try {
