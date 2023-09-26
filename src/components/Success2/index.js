@@ -21,7 +21,7 @@ const Success = () => {
                     <h1 className='thankk' style={{fontWeight:'1000', marginTop: '15px'}}>THANK YOU!</h1>
 
                     <h4 style={{fontSize:'16px'}}> Congratulations {user_id}!</h4>
-                    <h4 style={{fontSize:'16px'}}>Thank you for completing your registration for the Nissan Aftersales Conference.</h4>
+                    <h4 style={{fontSize:'16px'}}>Thank you for completing your registration for the Silal Automated Packhouse Launching Ceremony.</h4>
                     <h4 style={{fontSize:'16px'}}>You will receive a confirmation email of your details shortly.</h4>
                     <h4 style={{fontSize:'16px'}}>We look forward to driving the future of customer service with you!</h4>
                 </div>

@@ -147,12 +147,12 @@ const Registration = () => {
         </div>
 
 
-        <div style={{textAlign: 'center'}}>
+        {/* <div style={{textAlign: 'center'}}>
             <h3 style={{padding: '0', margin: '0'}}>TODAY.</h3>
             <h3 style={{padding: '0', margin: '0'}}>TOGETHER.</h3>
             <h3 style={{padding: '0', margin: '0'}}>TO THE FUTURE.</h3>
             <h5 style={{padding: '0', margin: '0', fontSize: '10px', marginBottom: '10px'}}>NISSAN AFTERSALES CONFERENCE</h5>
-        </div>
+        </div> */}
         
         <div style={{textAlign: 'center', paddingTop: '10px', width:"100%", alignItems:"center", justifyContent:"center"}}>
             <p style={{padding: '0', margin: '0'}}>Hello {name},</p>
